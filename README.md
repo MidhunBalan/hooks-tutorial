@@ -9,5 +9,7 @@
    if you keep useEffect and useLayoutEffect in the same component, useLayoutEffect will call first. 
 6. useImperativeHandle
 7. useContext
+8. useMemo
+
 
 
