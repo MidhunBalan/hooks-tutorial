@@ -7,6 +7,7 @@ import UseLayoutEffectHook from './components/UseLayoutEffectHook';
 import UseImperativeHandleHook from './components/UseImperativeHandleHook';
 import UseContextHook from './components/UseContextHook';
 import UseMemoHook from './components/UseMemoHook';
+import UseCallbackHook from './components/UseCallbackHook';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
       <br/><hr/>
       <h1>Example 8: UseMemo Hook</h1>
       <UseMemoHook/>
+      <br/><hr/>
+      <h1>Example 9: UseCallback Hook</h1>
+      <UseCallbackHook/>
     </div>
   );
 }
