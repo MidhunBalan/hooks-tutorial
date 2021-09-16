@@ -7,4 +7,7 @@
 4. useRef
 5. useLayoutEffect
    if you keep useEffect and useLayoutEffect in the same component, useLayoutEffect will call first. 
+6. useImperativeHandle
+7. useContext
+
 
